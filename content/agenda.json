@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "nama": "Pembersihan Makam",
+    "tanggal": "2026-11-29",
+    "waktu": "08:00",
+    "tempat": "Pemakaman Kampung Ciseupan",
+    "keterangan": "Nu Bade Dongkap"
+  },
+  {
+    "nama": "Pembersihan Jalan",
+    "tanggal": "2026-11-27",
+    "waktu": "08:00",
+    "tempat": "Kampung Ciseupan",
+    "keterangan": "Nu Bade Dongkap"
+  }
+]
