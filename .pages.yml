@@ -1,0 +1,112 @@
+media:
+  input: media
+  output: /media
+
+content:
+  - name: site
+    label: Profil Website
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: nama
+        label: Nama wilayah
+        type: string
+      - name: wilayah
+        label: Keterangan wilayah
+        type: string
+      - name: judul
+        label: Judul utama
+        type: string
+      - name: deskripsi
+        label: Deskripsi
+        type: text
+      - name: ketua_rt
+        label: Ketua RT
+        type: string
+      - name: alamat
+        label: Alamat
+        type: string
+      - name: telepon
+        label: Nomor kontak
+        type: string
+      - name: email
+        label: Email
+        type: string
+
+  - name: pengumuman
+    label: Pengumuman Warga
+    type: file
+    path: content/pengumuman.json
+    format: json
+    list: true
+    fields:
+      - name: judul
+        label: Judul pengumuman
+        type: string
+      - name: tanggal
+        label: Tanggal
+        type: date
+      - name: isi
+        label: Isi pengumuman
+        type: text
+      - name: status
+        label: Status
+        type: string
+
+  - name: agenda
+    label: Agenda Kegiatan
+    type: file
+    path: content/agenda.json
+    format: json
+    list: true
+    fields:
+      - name: nama
+        label: Nama kegiatan
+        type: string
+      - name: tanggal
+        label: Tanggal
+        type: date
+      - name: waktu
+        label: Waktu
+        type: string
+      - name: tempat
+        label: Tempat
+        type: string
+      - name: keterangan
+        label: Keterangan
+        type: text
+
+  - name: program
+    label: Program Kerja
+    type: file
+    path: content/program.json
+    format: json
+    list: true
+    fields:
+      - name: nama
+        label: Nama program
+        type: string
+      - name: keterangan
+        label: Keterangan
+        type: text
+
+  - name: galeri
+    label: Galeri Foto
+    type: file
+    path: content/galeri.json
+    format: json
+    list: true
+    fields:
+      - name: judul
+        label: Judul foto
+        type: string
+      - name: tanggal
+        label: Tanggal kegiatan
+        type: date
+      - name: foto
+        label: Pilih foto dari Media
+        type: image
+      - name: keterangan
+        label: Keterangan foto
+        type: text
